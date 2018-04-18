@@ -1,0 +1,23 @@
+{
+  "name": "kochab-get-requests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/payengt24/kochab-get-requests.git"
+  },
+  "author": "Pa Yeng Thao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/payengt24/kochab-get-requests/issues"
+  },
+  "homepage": "https://github.com/payengt24/kochab-get-requests#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "save": "^2.3.2"
+  }
+}
