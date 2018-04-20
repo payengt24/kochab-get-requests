@@ -7,7 +7,7 @@ const quotes = require('./modules/all-quotes');
 
 app.use(express.static('server/public'));
 
-app.use(bodyParser.urlencoded( { extended: true } ))
+app.use(bodyParser.urlencoded({ extended: true }))
 
 app.get('/all-quotes', (req, res) => {
     res.send(quotes);
